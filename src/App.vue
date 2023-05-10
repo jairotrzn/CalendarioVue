@@ -1,14 +1,16 @@
 <template>
   <v-app>
-    <calendario/>
+    <TableCrud/>
   </v-app>
 </template>
 
 <script>
 
 import Calendario from './components/Calendario.vue';
+import TableCrud from './components/TableCrud.vue';
+
 export default {
-  components: { Calendario },
+  components: { Calendario,TableCrud },
   name: 'App',
 
   data: () => ({
